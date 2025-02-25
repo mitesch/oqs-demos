@@ -1,12 +1,6 @@
 name: h2load
 
 on:
-  push:
-    branches: [ 'main' ]
-    paths: ['.github/workflows/h2load.yml', 'h2load/**']
-  pull_request:
-    branches: [ 'main' ]
-    paths: ['.github/workflows/h2load.yml', 'h2load/**']
   workflow_call:
     inputs:
       build_main:

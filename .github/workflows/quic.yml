@@ -1,16 +1,6 @@
 name: QUIC
 
 on:
-  push:
-    branches: ['main']
-    paths: ['.github/workflows/quic.yml', 'curl/**', 'nginx/**']
-
-  pull_request:
-    paths: ['.github/workflows/quic.yml', 'curl/**', 'nginx/**']
-
-  schedule:
-    - cron: '2 7 18,28 * *'
-
   workflow_dispatch:
 
 env:
